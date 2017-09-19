@@ -25,13 +25,20 @@
 
   .icon-div .ham {
     padding-left: 15px;
-    font-size: 19px;
+    font-size: 19px !important;
   }
 
   .icon-div i {
+    cursor: pointer;
     font-size: 15px;
     margin: 4px;
     color: #909090;
+    transition-duration: 0.25s;
+    transition-timing-function: linear;
+  }
+
+  .icon-div i:hover {
+    font-size: 19px;
   }
 
   .content {

@@ -27,10 +27,18 @@ hr {
 }
 
 .services p {
+  cursor: pointer;
   text-align: center;
   color: #615f5f;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+}
+
+.services p:hover {
+  color: purple !important;
+  font-size: 15px;
 }
 
 .service-details {

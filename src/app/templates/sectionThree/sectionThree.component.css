@@ -57,7 +57,7 @@
 button {
   width: 129px;
   margin-top: 12px;
-  background-color: #5d235d;
+  background-color: rgba(93, 35, 93, 0.78);
   color: white;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 10px;
