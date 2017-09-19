@@ -1,0 +1,94 @@
+.sectionFour {}
+
+.section-slider {
+  padding-left: 0px;
+}
+
+.carousel-caption {
+  top: 5%;
+}
+
+.carousel-caption p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-caption h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 0px;
+}
+
+.carousel i {
+  font-size: 14px;
+}
+
+.section-text {
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.section-text .cannon {
+  width: 50%;
+}
+
+.section-text p {
+  text-align: justify;
+  padding-top: 20px;
+  font-style: italic;
+  color: #615f5f;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+}
+
+.section-text h4 {
+  color: #615f5f;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section-text button {
+  width: 70%;
+  margin-top: 12px;
+  background-color: rgba(93, 35, 93, 0.78);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1143px) {
+  .section-text {
+    padding-top: 2%;
+    padding-left: 1%;
+  }
+  .section-text p {
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 907px) {
+  .section-text .cannon {
+    width: 20%;
+  }
+  .tech-img {
+    width: 50%;
+  }
+  .section-text p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-slider {
+    padding-right: 0px;
+  }
+  .section-text {
+    margin: 4%;
+  }
+  .section-text .cannon {
+    padding-bottom: 2%;
+  }
+  .section-text button {
+    width: 50%;
+  }
+}
